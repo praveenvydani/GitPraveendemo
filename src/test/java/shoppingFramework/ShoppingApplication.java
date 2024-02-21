@@ -41,4 +41,10 @@ public class ShoppingApplication extends BaseTest{
 	public void APIApplication() {
 		System.out.println("This is sample API application developed by branch");
 	}
+	
+	@Test
+	public void mobileAPIApplication() {
+		System.out.println("This is sample mobile API application developed by test branch");
+	}
+	
 }
