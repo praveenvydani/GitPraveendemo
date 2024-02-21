@@ -23,5 +23,12 @@ public class ShoppingApplication extends BaseTest{
 		
 		PaymentsPage payment = cart.clickOnCheckout();
 		payment.proceedPayments();
+		
+		System.out.println("Java Application");
+	}
+	
+	@Test
+	public void webApplication() {
+		System.out.println("This is sample web application");
 	}
 }
