@@ -31,4 +31,10 @@ public class ShoppingApplication extends BaseTest{
 	public void webApplication() {
 		System.out.println("This is sample web application");
 	}
+	
+	@Test
+	public void MobileApplication() {
+		System.out.println("This is sample mobile application");
+	}
+	
 }
